@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yashwanth.eeveadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".AdminHome"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.AddTrip" />
+        <activity
+            android:name=".activity.ViewTrips"
+            android:label="@string/title_activity_view_trips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.ManageTrip" />
+        <activity
+            android:name=".activity.ViewClients"
+            android:label="@string/title_activity_view_clients"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TripHistory"
+            android:label="@string/title_activity_trip_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HotelProfile"
+            android:label="@string/title_activity_hotel_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddScanTrip"
+            android:label="@string/title_activity_add_scan_trip"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

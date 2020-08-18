@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddScanTrip">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Model"
+        android:textColor="@color/colorBlack"
+        android:backgroundTint="@color/colorBlack"
+        android:id="@+id/editTextVehicleName"
+        android:textCursorDrawable = "@drawable/color_cursor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Registration no"
+        android:backgroundTint="@color/colorBlack"
+        android:id="@+id/editTextVehicleRegNo"
+        android:textCursorDrawable = "@drawable/color_cursor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorBlack"
+        android:id="@+id/editTextPhoneNumber"
+        android:textCursorDrawable = "@drawable/color_cursor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonScanQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@drawable/my_button_bg"
+        android:text="Scan QR" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonAddManually"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@drawable/my_button_bg"
+        android:text="Add manually" />
+
+    <Button
+        android:id="@+id/buttonStartTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@drawable/my_button_bg"
+        android:text="Start Trip Manually" />
+
+
+
+
+
+</LinearLayout>

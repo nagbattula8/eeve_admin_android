@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip ID" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTripId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User ID" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTextUserID" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hotel ID" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTextHotelID" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTextModel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reg no" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTextRegNo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTextStatus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Started on" />
+
+        <EditText
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable = "@drawable/color_cursor"
+            android:enabled="false"
+            android:id="@+id/editTextStart" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@drawable/text_color_selector"
+            android:background="@drawable/my_button_bg"
+            android:text="Close Trip"
+            android:id="@+id/buttonCloseTrip" />
+
+
+    </LinearLayout>
+</ScrollView>

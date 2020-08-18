@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_ios_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_hotel_profile"
+            android:icon="@drawable/ic_clipboard"
+            android:title="Hotel Profile" />
+        <item
+            android:id="@+id/addTrip"
+            android:icon="@drawable/ic_plus_circled"
+            android:title="Add Trip" />
+
+        <item
+            android:id="@+id/activeTrips"
+            android:icon="@drawable/ic_android_car"
+            android:title="Active Trips" />
+
+       <item
+            android:id="@+id/TripHistory1"
+            android:icon="@drawable/ic_clock"
+            android:title="Trip History" />
+
+      <item
+            android:id="@+id/viewClients"
+            android:icon="@drawable/ic_ios_people"
+            android:title="View Other Clients" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_log_out"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
